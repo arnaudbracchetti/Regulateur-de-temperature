@@ -44,3 +44,11 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+
+# =================================
+# Design Spark PCB working files
+# =================================
+
+*(PCB - Design Rule Check Report).txt
+*(PCB - PLOT REPORT).txt
