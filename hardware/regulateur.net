@@ -1,35 +1,96 @@
-AO1 "LM358" "DIP8"
-REF1 "+5V" ""
-R1 "RA" "DISC04A"
-R2 "RA" "DISC04A"
-REF2 "GND" ""
-Q1 "2N3906" "TO92"
-REF3 "+5V" ""
-REF4 "+5V" ""
-REF5 "GND" ""
-R3 "RA" "DISC04A"
-REF6 "GND" ""
-R4 "RA" "DISC04A"
-R5 "RA" "DISC04A"
-REF7 "+5V" ""
-R6 "RA" "DISC04A"
-REF8 "GND" ""
-LED1 "LED" "LEDT175"
-R7 "RA" "DISC04A"
-REF9 "GND" ""
-P2 "Resistance variable" "POTENTIOMETRE"
-RL1 "Ralay JS-K" "Relay JS-K"
-D2 "1N4148" "Diode"
-Q2 "2N2222" "TO92"
-REF10 "+5V" ""
-REG1 "L7805CV" "TO220"
-REF11 "GND" ""
-REF12 "+5V" ""
-PL1 "2WP" "2"
-PL2 "2WP" "2"
-PL3 "2WP" "2"
-REF13 "GND" ""
-R8 "RA" "DISC04A"
-C1 "C" "Capa"
-C2 "C" "Capa"
+Net "+5V"
+REF1.1
+R1.2
+REF3.1
+REF4.1
+AO1.8
+R3.2
+REF7.1
+P2.3
+REF12.1
+REG1.3
+RL1.4
+D2.2
+REF10.1
+C2.2
+
+Net "N0001"
+R2.2
+R1.1
+AO1.3
+
+Net "GND"
+REF2.1
+R2.1
+REF5.1
+AO1.4
+REF8.1
+R6.1
+REF9.1
+LED1.1
+REF11.1
+REG1.2
+PL1.1
+REF13.1
+Q2.1
+PL2.2
+REF6.1
+C1.1
+C2.1
+
+Net "N0006"
+R3.1
+Q1.1
+AO1.2
+
+Net "N0008"
+AO1.1
+Q1.2
+
+Net "N0009"
+Q1.3
+R4.2
+PL2.1
+
+Net "N0012"
+R4.1
+AO1.5
+R5.2
+
+Net "N0020"
+P2.1
+R6.2
+AO1.6
+
+Net "N0043"
+REG1.1
+PL1.2
+C1.2
+
+Net "N0055"
+RL1.1
+PL3.2
+
+Net "N0057"
+RL1.3
+PL3.1
+
+Net "N0058"
+R5.1
+AO1.7
+R7.1
+R8.2
+
+Net "N0066"
+R7.2
+LED1.2
+
+Net "N0068"
+R8.1
+Q2.2
+
+Net "N0070"
+Q2.3
+RL1.5
+D2.1
 
