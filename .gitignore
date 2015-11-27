@@ -54,3 +54,5 @@ Temporary Items
 *(PCB - PLOT REPORT).txt
 *(*).txt
 hardware/[~regulateur].pcb
+hardware/regulateur (rsbom).csv
+hardware/regulateur.cir
